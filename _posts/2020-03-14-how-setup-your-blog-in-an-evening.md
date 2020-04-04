@@ -2,18 +2,19 @@
 layout: post
 title: How Setup your Blog in an Evening?
 image: /img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
+tags: [blogging]
 ---
+If you want to have a batteries included blog without getting lost in the sauce, I can share my recipe. It is flavored by open source ingredients, broadly consumed in the blogging community. I obtained a powerful and flexible solution, without spending effort in implementation details.
 
-My last and first blog was answering the question: why is it important for a software engineer to keep a blog. Now, I would like to highlight how incredible simple and easy is to setup one nowadays. Already in the past, creating and maintaining a blog was affordable by everyone with a minimum technical background and just some interest on the topic. But now, it is even more simpler. I had setup one in an evening for free, without having experience on web development. The receipt that worked fine for me is a mix of:
-
+My last and first blog entry was answering the question: why is it important for a software engineer to keep a blog. Now, I would like to highlight how incredible simple and easy is to setup one nowadays. Already in the past, creating and maintaining a blog was affordable by everyone with a minimum technical background and just some interest on the topic. But now, it is even more simpler. I had setup one in an evening for free, without having experience on web development. The recipe that worked for me is a mix of:
 - GitHub Pages
 - Markdown
 - Jekyll
 - Beautiful Jekyll
 
-I feel that with this combination I get the benefit of a powerful and flexible solution, without spending effort in implementation details. So, I could focus on just the content and not on the tools itself.
+I feel that with this combination I obtained a good result and had the possibility to focus on just the content of the blog and not on the tools itself.
 
-### GitHub Pages
+## GitHub Pages
 
 [GitHub Pages](https://pages.github.com) offer a way to create custom websites for GitHub users and projects. It is a well known product and with a long history, since is already available from 2008. Its main benefits is simplicity. You have for free all the features of GitHub, like:
 
@@ -25,7 +26,7 @@ I feel that with this combination I get the benefit of a powerful and flexible s
 
 If you want your custom domain, it support custom urls. And last but not least, as a software engineer you likely already have an account and have some repos on GitHub.
 
-### Markdown
+## Markdown
 
 I really love Markdown, because it is so simple and intuitive. It is not a coincidence that it is nowadays a de facto standard for technical writing, especially for blogging. According to its creator John Gruber: “*Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).*” [1]
 
@@ -35,7 +36,7 @@ Being a plain text format is a big advantage. It allows working smoothly with ve
 
 Detractors of Markdown objects that it is limited stylistically, in how you can display content. And, it is absolutely true . However, this is an intentional design choice. And probably the main reason why I like it, being a fan of the KISS principle. 
 
-### Jekyll
+## Jekyll
 
 A dynamic website for a simple blog is just overkilling. With a static website you can avoid all the overhead of a database and its infrastructure. Then, you will gain in maintenance, security, faster learning, versioning, and free hosting. 
 
@@ -60,22 +61,21 @@ Configuration file: D:/Code/corradotorino.github.io/_config.yml
   Server running... press ctrl-c to stop.
 ~~~
 
-### Beautiful Jekyll
+## Beautiful Jekyll
 
-[GitHub Pages](https://pages.github.com/) are *powered by Jekyll*,
+I promise a blog in just an evening, and I'm meant a batterie included blog: with a pleasant look and feel and all the functionalities that you can except. So, It time to meet the last of our ally: Beautiful Jekyll.
 
-Get up and running *in seconds*.
+As defined by its creator, Dean Attali, *Beautiful Jekyll is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly*.
 
-ToDo: remark the importanece of open source
+When I discover this project, I was very impressed: just cloning the repo and running it and I get a bunch of appealing features. It has mobile-first look, it shine on both large-screen and small-screen (mobile) devices. It is highly customizable, for example you can change background colors, add images and avatars both in pages and in the navigation bar. You can share nicely your posts on all the social media as LinkedIn, Facebook, Twitter, RSS feed... Moreover, it has some nice features that I still not tried as Google Analytics or the possibility to allow users to leave comments. 
 
-## References:
+So, if you want save time on styling and details, I absolutely recommend Beautiful Jekyll.
 
-[Markdwon by John Gruber](https://daringfireball.net/projects/markdown/)
-
-[Pros and Cons of Using Markdown for Technical Writing](https://hackernoon.com/pros-and-cons-of-using-markdown-for-technical-writing-34f277418a8a)
-
-[Jekyll](https://jekyllrb.com/)
-
-[Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)
-
-[Testing your GitHub Pages site locally with Jekyll](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+## Useful Links
+- [GitHub Pages](https://en.wikipedia.org/wiki/GitHub_Pages)
+- [MarkdoWn by John Gruber](https://daringfireball.net/projects/markdown/)
+- [Pros and Cons of Using Markdown for Technical Writing](https://hackernoon.com/pros-and-cons-of-using-markdown-for-technical-writing-34f277418a8a)
+- [Jekyll](https://jekyllrb.com/)
+- [Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)
+- [Testing your GitHub Pages site locally with Jekyll](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+- [Beautiful Jekyll](https://github.com/daattali/beautiful-jekyll#readme)
