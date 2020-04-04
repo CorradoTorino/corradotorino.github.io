@@ -37,19 +37,28 @@ Detractors of Markdown objects that it is limited stylistically, in how you can 
 
 ### Jekyll
 
-A dynamic website for a simple blog is just overkilling. With a static website you can avoid all the overhead of a database and its infrastructure. Then, gaining in maintenance, security, faster learning, versioning, free hosting. 
+A dynamic website for a simple blog is just overkilling. With a static website you can avoid all the overhead of a database and its infrastructure. Then, you will gain in maintenance, security, faster learning, versioning, and free hosting. 
 
-Jekyll helps you to create a static website. It is a static site generator. Starting from a plain text as input, Jekyls is able to generate the html code of the entire static web site. In particular, the plain text can be markdown. Jekyll was created to facilitate blog creation and it is now the most famous web static generator, probably because is the engine behind [GitHub Pages](https://en.wikipedia.org/wiki/GitHub_Pages).
+For sure you can write your static website and its html for your own. However, you can count on allies that can make your life easier, for example: Jekyll. It is a static site generator. What does it mean? Simple: starting from a plain text as input, Jekyll is able to generate the html code of the entire static web site. In particular, the plain text can be markdown. It will not surprise you that Jekyll was created to facilitate blog creation. And now, it is the most famous web static generator. Probably because it is the engine behind [GitHub Pages](https://en.wikipedia.org/wiki/GitHub_Pages).
 
-Again what I like of this tool is its simplicity. I found very usefull the possibility to preview the changes locally  the content with very los effort. You need just to install jekyl with its dependecny (Ruby) and then launch ....
+Again, simplicity and broad adoption are the reasons  why I get in love with this tool.
 
+For example, I found very useful that with zero effort you can preview locally the changes of your blog. In fact, you just need to install Ruby and Jekyll, a Ruby Gem, and then execute one command.
 
-
-
-
-place code example here
-
-
+~~~
+$ bundle exec jekyll serve
+Configuration file: D:/Code/corradotorino.github.io/_config.yml
+            Source: D:/Code/corradotorino.github.io
+       Destination: D:/Code/corradotorino.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 2.988 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'D:/Code/corradotorino.github.io'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+~~~
 
 ### Beautiful Jekyll
 
@@ -61,12 +70,12 @@ ToDo: remark the importanece of open source
 
 ## References:
 
-1-[Markdwon by John Gruber](https://daringfireball.net/projects/markdown/)
+[Markdwon by John Gruber](https://daringfireball.net/projects/markdown/)
 
-2 -[Pros and Cons of Using Markdown for Technical Writing](https://hackernoon.com/pros-and-cons-of-using-markdown-for-technical-writing-34f277418a8a)
+[Pros and Cons of Using Markdown for Technical Writing](https://hackernoon.com/pros-and-cons-of-using-markdown-for-technical-writing-34f277418a8a)
 
-3 -  [Jekyll](https://jekyllrb.com/)
+[Jekyll](https://jekyllrb.com/)
 
-4- [Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)
+[Building a static website with Jekyll and GitHub Pages](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)
 
-4- [Testing your GitHub Pages site locally with Jekyll](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
+[Testing your GitHub Pages site locally with Jekyll](https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll)
