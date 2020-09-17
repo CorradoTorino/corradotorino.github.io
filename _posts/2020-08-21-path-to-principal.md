@@ -4,7 +4,7 @@ title: Path to Principal
 image: /img/2020-08-21-PathToPrincipal.jpg
 tags: [sw-craftsmanship, career, software engineering]
 ---
-This week I participated in the “Path to Principal” podcast organized by Gianluca Rosania. Here, I unwindded the interview. Advise: no verbatim et literatim. Why? Because you’ll find many thoughts describing myself and my vision of software engineering.
+This week I participated in the “Path to Principal” podcast organized by Gianluca Rosania. Here, I unwinded the interview. Advise: no verbatim et literatim. Why? Because you’ll find many thoughts describing myself and my vision of software engineering.
 
 Recording a podcast was absolutely a new experience for me and it was extremely exciting discussing with Gianluca about topics that I really enjoy. If you have the possibility to have a similar involvement, I really reccomend to take it because is funny and absolutely engaging. Here, my recording:
 
