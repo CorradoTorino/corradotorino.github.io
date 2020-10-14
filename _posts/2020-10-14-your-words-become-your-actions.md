@@ -35,7 +35,7 @@ When searching for racially loaded terms, I got the impression that the number o
 **Figure 1: Infographic of projects and company creating cross-cultural linguistic awareness**
 
 If we put aside the Los Angeles County that already in 2003 asked suppliers and contractors to stop using “master” and "slave" on computer equipment. It’s not a surprise that the open source community has been an early bird on this aspect. Django and Drupal in 2014 replaced occurrences of master/slave terminology respectively with leader/follower and primary/replica. And as a .Net enthusiast, I’m happy to see that in 2015 the Roslyn compiler removed the term "whitelist", probably pushed by the .NET foundation that was recently born. In the following years several OSS and non-profit corporations followed their example. Here we can find big names such as the Internet Systems Consortium, Python, Redis, Chromium, PostgreSQL among others. 
-However, the real game changer has been the Black Lives Matter movement in 2020. Then, also the enterprise world joined the party. Here, huge names such as Twitter, IBM, Linkedin showed their compromise to remove racially-charged phrases and move toward an inclusive language. For example, Google removed from Android Open Source Project (AOSP) worlds as "whitelist" and "blacklist" in favour of "allowlist" and "blocklist". Probably the more famous and emblematic of these changes has been performed by Microsoft, with GitHub. From the 1st of October of this year, all new repositories will not be created anymore with master as default branch. The new default will be the main branch. GitHub is trying to cause as little disruption to existing projects as possible. However, their roadmap is clear. In the next few months they are seamlessly moving existing repositories in the same direction. Also in 2020, the amount of OSS adopting racially neutral alternatives exploded.  
+However, the real game changer has been the Black Lives Matter movement in 2020 [^22]. Then, also the enterprise world joined the party. Here, huge names such as Twitter, IBM, Linkedin showed their compromise to remove racially-charged phrases and move toward an inclusive language. For example, Google removed from Android Open Source Project (AOSP) worlds as "whitelist" and "blacklist" in favour of "allowlist" and "blocklist". Probably the more famous and emblematic of these changes has been performed by Microsoft, with GitHub. From the 1st of October of this year, all new repositories will not be created anymore with master as default branch. The new default will be the main branch. GitHub is trying to cause as little disruption to existing projects as possible. However, their roadmap is clear. In the next few months they are seamlessly moving existing repositories in the same direction. Also in 2020, the amount of OSS adopting racially neutral alternatives exploded.  
 
 **Table 2: Reference of projects and company creating cross-cultural linguistic awareness**
 
@@ -63,7 +63,7 @@ However, the real game changer has been the Black Lives Matter movement in 2020.
 | 2020 | OpenZFS file storage manager | removed unnecessary references to slavery [^20] |
 
 ## Is it worth it?
-I’ll be honest. If you ask me this question, I’m for sure biased by the education I received. I have a strong opinion that it is worth investing energy to have a more inclusive language. It is not a coincidence that I’m working in a company stating that diversity and inclusion is the engine of our innovation. Infact, I think it really helps when your personal values are aligned with the vision of the company where you dedicate your time and passion. So, I was more than happy to see a bold commitment to remove racially loaded worlds.
+I’ll be honest. If you ask me this question, I’m for sure biased by the education I received. I have a strong opinion that it is worth investing energy to have a more inclusive language. It is not a coincidence that I’m working in a company stating that diversity and inclusion is the engine of our innovation[^21]. Infact, I think it really helps when your personal values are aligned with the vision of the company where you dedicate your time and passion. So, I was more than happy to see a bold commitment to remove racially loaded worlds.
 I think that the software industry is not inclusive enough from different perspectives. So, it is already a good starting point having open discussions about diversity and inclusions. In this way, we can create awareness about a true story: nowaday racism is still a big issue and we should not forget it. Probably, some places suffer racism more than others. But we live in a globalized world and our software products are globally available.
 I also think that our language strongly influences our behaviours. I don’t know how true are the claims of Neuro-Linguistic Programming (NLP) stating that there is a connection between neurological processes, language and behavioral patterns. But, I believe in the impact created by a little big man and I really trust its worlds:
 
@@ -78,7 +78,7 @@ I also think that our language strongly influences our behaviours. I don’t kno
 >Gandhi<br>
 >
 
-## References and Useful Readings 
+## References and Useful Readings
 
 [^1]: [ Change done by Los Angeles County:<br>](https://edition.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html){:target="_blank"} https://edition.cnn.com/2003/TECH/ptech/11/26/master.term.reut/index.html 
 [^2]: [ Change done by Django:<br>](https://code.djangoproject.com/ticket/22667){:target="_blank"} https://code.djangoproject.com/ticket/22667
@@ -100,4 +100,5 @@ I also think that our language strongly influences our behaviours. I don’t kno
 [^18]: [ Change done by PHP:<br>](https://github.com/sebastianbergmann/phpunit/commit/8e9c76d33dab4095c9066072076f368193e4166d){:target="_blank"} https://github.com/sebastianbergmann/phpunit/commit/8e9c76d33dab4095c9066072076f368193e4166d
 [^19]: [ Change done by Curl:<br>](https://github.com/curl/curl/pull/5546){:target="_blank"} https://github.com/curl/curl/pull/5546
 [^20]: [ Change done by OpenZFS file storage manager:<br>](https://github.com/openzfs/zfs/pull/10435){:target="_blank"} https://github.com/openzfs/zfs/pull/10435
-
+[^21]: [ Diversity & Inclusion at Roche](https://www.roche.com/careers/for_employees/diversity.htm){:target="_blank"} https://www.roche.com/careers/for_employees/diversity.htm 
+[^22]: [ Master and slave: Tech terms face scrutiny amid anti-racism efforts](https://www.cnet.com/news/master-and-slave-tech-terms-face-scrutiny-amid-anti-racism-efforts/){:target="_blank"} https://www.cnet.com/news/master-and-slave-tech-terms-face-scrutiny-amid-anti-racism-efforts/
