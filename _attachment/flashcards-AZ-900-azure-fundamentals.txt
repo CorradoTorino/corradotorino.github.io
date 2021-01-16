@@ -1,0 +1,98 @@
+What is Azure Cosmos DB?	Azure Cosmos DB is a globally distributed, multi-model database service, supports schema-less data
+How can you can migrate your existing SQL Server databases to Azure SQL database?	The Microsoft Data Migration Assistant allow to migrate your db with mininal downtime.
+What is it Azure SQL Database?	Azure SQL Database is a platform as a service (PaaS) database engine.
+What is Azure SQL Managed Instance?	Like Azure SQL Database, Azure SQL Managed Instance is a platform as a service (PaaS) database engine
+What are the difference between Azure SQL database and Azure SQL Managed Instance?	see the list... Azure SQL Managed Instance has more feature. i.e in Azure SQL db default server collation SQL_Latin1_General_CP1_CI_AS is always used.
+What are the availability SLA for Azure SQL database and Azure SQL Managed Instance?	99.99%
+What is Azure database for MySQL?	Azure Database for MySQL is a relational database service in the cloud, and it's based on the MySQL Community Edition database engine, versions 5.6, 5.7, and 8.0.
+What are the availability SLA for Azure database for MySQL?	99.99%
+What is Azure database for PostgreSQL?	Azure Database for PostgreSQL is a relational database service in the cloud. The server software is based on the community version of the open-source PostgreSQL database engine.
+Which deplyment are available for Azure database for PostgreSQL?	Azure Database for PostgreSQL is available in two deployment options: Single Server and Hyperscale (Citus).
+What are the availability SLA for Azure database for PostgreSQL?	99.99%
+Which services are available in Azure for big data?	- Azure Synapse Analytics<br>- Azure HDInsight<br>- Azure Databricks<br>- Azure Data Lake Analytics
+If you use the LAMP stack, which option would be ideal for migration?	Azure Database for MySQL
+Which API support Azure Cosmos DB?	- SQL<br>- MongoDB<br>- Cassandra<br>- Graph<br>- Tables<br>- Gremlin
+What are virtual machine scale sets?	Virtual machine scale sets let you create and manage a group of identical, load-balanced VMs.
+What is Azure Batch?	Azure Batch enables large-scale parallel and high-performance computing (HPC) batch jobs with the ability to scale to tens, hundreds, or thousands of VMs.
+What is Azure App Service?	App Service enables you to build and host web apps, background jobs, mobile back-ends, and RESTful APIs in the programming language of your choice without managing infrastructure.
+What is a Durable Functions?	It's a stateful Azure functions, where a context is passed through the function to track prior activity.
+Whate are Azure Logic Apps?	Similar to azure functions respond to event. But logic apps execute workflows that are designed to automate business scenarios and are built from predefined logic blocks.
+What is Windows Virtual Desktop?	Windows Virtual Desktop on Azure is a desktop and application virtualization service that runs on the cloud. It enables your users to use a cloud-hosted version of Windows from any location.
+How can you access Windows Virtual Desktop?	From Windows, Mac, iOS, Android, and Linux with native application, or with the Windows Virtual Desktop HTML5 web client.
+What are Virtual machine scale sets?	Virtual machine scale sets let you deploy and manage a set of identical virtual machines.
+What is Azure Storage?	Azure Storage is a service that you can use to store files, messages, tables, and other types of information.
+What is Disk Storage?	Disk Storage provides disks for Azure virtual machines.
+What is Azure Blob Storage?	Azure Blob Storage is an object storage solution for the cloud. It can store massive amounts of data, such as text or binary data.
+What are Azure Files?	Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block and Network File System (preview) protocols.
+How can you made available azure files for a specific amount of time?	You can also use Shared Access Signature (SAS) tokens to allow access to a private asset for a specific amount of time.
+What are hot access tier?	Optimized for storing data that is accessed frequently
+What are cool access tier?	Optimized for data that is infrequently accessed and stored for at least 30 days
+What are archieve access tier?	Appropriate for data that is rarely accessed and stored for at least 180 days, with flexible latency requirements
+What is Azure vNet?	Azure Virtual Network
+What is Azure Virtual Network?	Azure vNet are as a set of resources that links other Azure resources.
+How an Azure VM can connect to the internet?	A VM in Azure can connect to the internet by default.
+How can a VM receive inbound traffic form the internet?	defining a public IP address or a public load balancer
+What does allow point-to-site VPN?	It allows to a client computer to connect with an Azure network
+What does allow site-to-site VPN?	It allow to have your Azure resources in your on-premises VPN. The Azure resources will appear as in the local network
+What does allow Azure ExpressRoute?	It allows to communicate your network with Azure, without passing througth internet
+How can you connect vNet?	You can define virtual network peering
+What is peering?	Virtual Network peering is the way to connect together vNets
+What is a VPN?	A virtual private network (VPN) connects two or more trusted private networks to one another over an untrusted network (typically the public internet).
+How can you prevent eavesdropping in a VPN?	VPN Traffic is encrypted while traveling over the untrusted network to prevent eavesdropping or other attacks.
+What is a VPN gateway?	It is a type of vnet gateway.
+Which is the preferred VPN gateway to use?	Route-based VPN are the more flexible ones.
+When should you use policy-based VPN gateway?	For legacy system, when you on-premise VPN gateway allows only policy-based VPN gateway
+How many VPN gateways can you have in a vNet?	Only one. But you can use a a VPN gateway for multiple vNets
+What is an active/standby Vpn gateway scenario?	It is the default high-availability scenario for VPN gateway, where there is a  VPN gateway ready to work when the active fails.
+How much time requires to restore connections in case of failure on an active/standby VPN gateway scenario?	Few seconds in a planned maintanance, up to 90 seconds in an unplanned maintanance
+Whats is an active/active VPN Gateway scenario?	It is a high-availability scenario whre both VPN gateway are working at the same time
+What is an ExpressRoute failover scenario?	It is when you allows to use a VPN gateway in case of failure of the ExpressRoute connection
+What is a zone-redundant gateways?	When regions support it, VPN gateways and ExpressRoute can be deployed in a zone-redundant configuration.
+Is it encrypted the traffic in an ExpressRoute connection?	No the connection is private (does not pass over the internet) but it is not encrypted.
+What is ExpressRoute Global Search?	It allows to exchange data across your on-premises sites by connecting your ExpressRoute circuits.<br>Infact, by default two ExpressRoute cannot exchange info between them.<br>ExpressRoute Global Search is useful when you have your ISP does not have support in different geographical areas. 
+What is a cloud-exchange colocation?	In ExpressRoute is when your data center is colocated in the ISP provider and is connect to Microsoft network.
+What is a Point-to-point Ethernet connection?	In ExpressRoute, Point-to-point connections provide Layer 2 and Layer 3 connectivity between your on-premises site and Azure.
+What is a any-to-any connection?	In ExpressRoute ExpressRoute, With any-to-any connectivity, you can integrate your wide area network (WAN) with Azure by providing connections to your offices and datacenters.
+How can you enable Dynamic routing in ExpressRoute?	ExpressRoute uses the Border Gateway Protocol (BGP) routing protocol.
+What is a tenant?	A tenant is a representation of an organization. A tenant is typically separated from other tenants and has its own identity.
+How can I connect Active Directory with Azure AD?	The most popular method is to use Azure AD Connect.
+What is Azure AD Connect?	Azure AD Connect synchronizes changes between Active Directory and Azure AD
+When is available Conditional Access?	if you have Azure AD Premium P1 or P2 license. Azure Active Directory free edition does not enables Conditional Access
+Which kind of multi-factor authentication enables Azure Active Directory free edition?	administrators with the global admin level of access enables Azure AD Multi-Factor Authentication via the Microsoft Authenticator app, phone call, or SMS code And to all users if you enabling security defaults in your Azure AD tenant
+What is Conditional Access?	allow (or deny) access to resources based on identity signals. These signals include who the user is, where the user is, and what device the user is requesting access from.
+What are What If tools?	They are tools that helps you plan and troubleshoot your Conditional Access policies.
+How can you ensure that employees can access applications only from approved tablet devices?	Using Conditional Access
+How can you use biometric properties to prove your identities?	Using Multifactor authentication
+How can you reduce the number of times users must authenticate to access multiple applications?	Using SSO. Single Sign-on
+What is about Authentication (AuthN?	Authentication (AuthN) establishes the user's identity.
+What is about Authorization (AuthZ)?	Authorization (AuthZ) establishes the level of access that an authenticated user has.
+What is Single sign-on (SSO)?	Single sign-on (SSO) enables a user to sign in one time and use that credential to access multiple resources and applications.
+What is Azure Active Directory (Azure AD)?	It is a cloud-based identity and access management service. Azure AD enables an organization to control access to apps and resources based on its business requirements.
+What is Azure AD Multi-Factor Authentication?	Azure AD Multi-Factor Authentication provides additional security for identities by requiring two or more elements to fully authenticate. In general, multifactor authentication can include something the user knows, something the user has, and something the user is.
+Which langauges support Azure Cloud Shell?	Both bash and Power Shell
+How are implemented hard disk in Azure?	They are Containers. In particular they are implemented as page blob.
+Which types of app services can you host as Azure App Services?	- Web apps<br>- API apps<br>- WebJobs<br>- Mobile apps
+Which kind of disk are available as Disk Storage?	- SSD and HDD disks for less critical workloads<br>- premium SSD disks for mission-critical production applications<br>- ultra disks for data-intensive workloads
+Which access tiers are available for Azure Blob Storage?	- hot access tier<br>- cool access tier<br>- archieve access tier
+How can you connect Azure resources?	- Creating a vNet between the resources<br>- Defining a Service endpoints to allow multiple resources to connect with the endpoint
+How can you conect Azure resources to your on-premises resources?	- point-to-site VPN<br>- site-to-site VPN<br>- Azure ExpressRoute
+How can you route network traffiv in Azure?	- Route tables<br>- Border Gateway protocol (BGP)
+How can you filter network traffic in Azure?	- Network Security Group<br>- Network virtual appliances
+What does enables a VPN gateway?	- site-to-site connection, connect on-premises to azure vNets<br>- point-to-site connection, connect on-premise device to azure vNets<br>- network-to-network connection, connect vnets to other vnets
+Which type of VPN gateways are available in Azure?	- Policy-based VPNs<br>- Route-based VPNs
+Which high-availability scenarios are possible with VPN gateway?	- active/standby <br>- Active/Active<br>- ExpressRoute Failover<br>- Zone-redundant gateway
+What are the main advantages of ExpressRoute?	- Built-in redundancy<br>- Connectivity with Microsoft cloud services<br>- consistent network throughput
+Which ExpressRoute connectivity models are available?	- CloudExchange colocation<br>- Point-to-point Ethernet conection<br>- Any-to-any connection
+Which categories of multifactor authentication are available?	- Something the user knows. i.e. email address and password.<br>- Something the user has. i.e. a code that's sent to the user's mobile phone.<br>- Something the user is. i.e biometric property
+Which services Azure AD provides?	- Authentication (AuthN)<br>- Single sign-on<br>- Application management<br>- Device management<br>
+What are the benefits of perform Authentication (AuthN) with Azure AD?	- self-service password reset<br>- multifactor authentication<br>- custom list of banned password<br>- smart lockout services
+Is Azure App Service PAAS?	Yes
+Is Azure Storages Accounts PAAS?	No. It is an IAAS
+Which *AAS is Azure web app?<br>	PAAS
+Which *AAS is Azure Logic App?	PAAS
+"Which *AAS is A<span style=""color: rgb(33, 37, 41); background-color: rgb(255, 255, 255);"">zure SQL database</span>?<br>"	PAAS
+What are Azure Reserved VM Instances (RIs)?	Are VM instance calready reserved that allowed you to save cost
+What can you do with Azure DevTest Lab?	"It is aservice that allow you to create instances with&nbsp;<span style=""color: rgb(33, 37, 41);"">pre-configured bases or Azure Resource Manager templates</span>"
+Can you add a physical server in a public cloud?	No. You can only deploy a virtual resource in a public cloud.&nbsp;
+Can you deploy a virtual server in a public cloud?	Yes
+Can VM of a scale set deployed across multiple update domains and fault domains to maximize availability?	Yes
