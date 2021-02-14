@@ -23,7 +23,7 @@ Thanks to Example Mapping, my team was able to create a rule of thumbs that corr
 ## Have Fun: Focus on the Conversation Not on the Gherkin
 I cannot stress more: the goal of Example mapping are the conversations not the test scenarios.
 Don’t get lost writing the gherkin. Don’t be picky writing the example! 
-My team learnt this lesson the hard way. We wasted a couple of sessions being too strict with the syntax. And more dangerous, we almost lost people's engagement with the technique. Have fun! You need to spend a lot of time sitted together in a room. Moreover, these sessions are extremely expensive: an entire team in a meeting means the tachograph is running fast..
+My team learnt this lesson the hard way. We wasted a couple of sessions being too strict with the syntax. And more dangerous, we almost lost people's engagement with the technique. Have fun! You need to spend a lot of time sit together in a room. Moreover, these sessions are extremely expensive: an entire team in a meeting means the tachograph is running fast..
 So, you should prioritize understanding the feature over writing the BDD scenarios.
 In our case, during the session we just write simple post-its like the ones in the figure. We state the preconditions, the action and the expected result. Then, in a second moment, our product owner writes the scenarios from the examples using gherkin. However, I’m more with Matt Wine advice, that suggests that the gherkin is written by the team after the session. In this way, the product owner reviewing the scenarios can also ensure that the team has really understood the stories and can give feedback.
 
