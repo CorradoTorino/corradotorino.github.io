@@ -43,7 +43,7 @@ Secondly, another mitigation strategy is to design your system in order to have 
 
 Finally, it’s advised to **use short-lived tokens** (on the order of minutes) in order to make the life of attackers harder. You can find more details on this point on the section "Token Lifetime".
 
-## Token Validation
+## What Validate in a Token?
 
 Taking in account that an access token is meant for an API, it then should be validated by the API for which it was intended[^7]. The client receiving a token, acting as a bearer, does not need to perform validation if it uses the token only in the request to the resource server. The client needs to validate the token only if it uses its content.
 
@@ -97,7 +97,7 @@ In the next table, I summarized the main validation that you can perform on the 
 </table>
 
 
-## Key Rotation
+## Improve security with Key Rotation
 
 Guaranteeing the signature of the access token is one of the security pillars of Oauth 2.0 and OpenID Connect. Applying cryptography in the correct way ensures a good degree of confidence. However, we often tend to forget that using the same old keys too frequently can allow hackers to succeed in their cryptanalysis resulting in the understanding of encoding and decoding patterns [^10]. 
 
@@ -105,7 +105,7 @@ In this direction, key rollover or key rotation has been identified as one of th
 
 For sure, on top of an automatic rotation policy, you need also to rotate the key manually in case of emergency. For example, in the case you suspect that a private key has been leaked or you have suffered a security incident.
 
-## Token Lifetime
+## How to deal with Token Lifetime?
 
 To deal with token capture and replay, the lifetime of the token must be limited. One means of achieving this is by putting a validity time field inside the protected part of the token.  Note that using short-lived (one hour or less) tokens reduces the impact of them being leaked. Lifetimes of days or months must be avoided. If possible, short-lived access tokens should be combined with refresh tokens to improve security. In case of JWT, the claims *Expiration Time "exp"*,* Issued At "iat"* and *Not Before "nbf"* define the lifetime of the access token and must be taken into account according to the "Token Validation" chapter.
 
