@@ -4,6 +4,7 @@ title: Why Nurturing Broad Interests and Skills Instead of Rushing to Specialize
 thumbnail-img: /assets/img/2021-10-26-range.jpg
 share-img: /assets/img/2021-10-26-range.jpg
 tags: [bookreview, Range, generalists, learning]
+readtime: true
 ---
 I really enjoyed reading *Range* by David Epstein. Page after page, I had the constant feeling of getting corroborated of many embryonic ideas that I already had in my mind but were still far from being developed.
 

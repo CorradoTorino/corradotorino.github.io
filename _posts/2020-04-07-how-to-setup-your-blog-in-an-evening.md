@@ -4,6 +4,7 @@ title: How to Setup your Blog in an Evening
 thumbnail-img: /assets/img/2020-04-07-victoria-heath-MAGAXAYq_NE-unsplash-edited.jpg
 share-img: /assets/img/2020-04-07-victoria-heath-MAGAXAYq_NE-unsplash-edited.jpg
 tags: [blogging]
+readtime: true
 ---
 If you want to have a batteries-included blog without getting lost in the sauce, here’s my recipe. It uses open source ingredients, widely consumed in the blogging community. I obtained a standard, powerful and flexible solution, without spending much time and effort in implementation details.
 

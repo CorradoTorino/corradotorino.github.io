@@ -4,6 +4,7 @@ title: Your Words Become Your Actions
 thumbnail-img: /assets/img/2020-10-14-aaron-blanco-tejedor-yH18lOSaZVQ-unsplash-edited.jpg
 share-img: /assets/img/2020-10-14-aaron-blanco-tejedor-yH18lOSaZVQ-unsplash-edited.jpg
 tags: [diversity, inclusion, inclusive-language]
+readtime: true
 ---
 Worlds Matters! A master slave relationship is not just a primary and replica dependency… Terms such as master and slave are associated to social discrimination and should be used just in their context. 
 

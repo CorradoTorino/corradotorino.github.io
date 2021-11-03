@@ -4,6 +4,7 @@ title: OAuth 2.0 and Access Tokens, All You Want to Know
 thumbnail-img: /assets/img/2021-04-12-fly-d-P3-YKLS2VKA-unsplash.jpg
 share-img: /assets/img/2021-04-12-fly-d-P3-YKLS2VKA-unsplash.jpg
 tags: [security, authentication, authorization, OAuth, OpenID, tokens, JWT]
+readtime: true
 ---
 If you have worked with authentication and authorization of Apps and APIs, you have also played with tokens: access tokens, opaque tokens, JSON Web Tokens, bearer tokens… Here, I want to clarify the difference among these concepts and provide some simple guidelines to ensure their security.
 
