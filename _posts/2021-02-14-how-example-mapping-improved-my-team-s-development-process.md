@@ -1,7 +1,8 @@
 ---
 layout: post
 title: How Example Mapping Improved My Team’s Development Process
-image: /assets/img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
+thumbnail-img: /assets/img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
+share-img: /assets/img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
 tags: [example-mapping, bdd, gherkin, agile]
 ---
 Do you believe me if I tell you that I had the right receipt to refine User Stories? And what if this receipt helps you to have smaller stories that still deliver business value? And If I add that this receipt allows people with different seniority to create a shared understanding of the new features all together and having fun in the meanwhile? Believe it or not, I will tell you how my team was able to get these benefits adopting Example Mapping. It’s not something that happened from one day to the next one. But here I will share with you my learnings. It is up to you to bake the receipt as is, or to add your favourite flavours.

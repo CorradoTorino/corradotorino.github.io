@@ -1,7 +1,8 @@
 ---
 layout: post
 title: AZ-900. My Azure Journey
-image: /assets/img/2021-01-16-az-900-badge.png
+thumbnail-img: /assets/img/2021-01-16-az-900-badge.png
+share-img: /assets/img/2021-01-16-az-900-badge.png
 tags: [Azure, cloud, certifications, flashcards, continuous-learning]
 ---
 I’ve recently earned the AZ-900 Azure Fundamentals certification. Here, I want to share my personal experience and the resources that I used and developed to get there.
