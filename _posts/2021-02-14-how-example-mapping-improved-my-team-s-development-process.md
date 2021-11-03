@@ -1,8 +1,10 @@
 ---
 layout: post
 title: How Example Mapping Improved My Team’s Development Process
-image: /img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
+thumbnail-img: /assets/img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
+share-img: /assets/img/2021-02-14-zd-newmedia-NTqHXGGlXZM-unsplash-edited.jpg
 tags: [example-mapping, bdd, gherkin, agile]
+readtime: true
 ---
 Do you believe me if I tell you that I had the right receipt to refine User Stories? And what if this receipt helps you to have smaller stories that still deliver business value? And If I add that this receipt allows people with different seniority to create a shared understanding of the new features all together and having fun in the meanwhile? Believe it or not, I will tell you how my team was able to get these benefits adopting Example Mapping. It’s not something that happened from one day to the next one. But here I will share with you my learnings. It is up to you to bake the receipt as is, or to add your favourite flavours.
 
@@ -12,7 +14,7 @@ Here, I’m completely transparent and I admit that in the very beginning I was 
 
 ## A Brief Introduction to Example Mapping
 I don’t want to describe Example Mapping too extensively. Although it is a technique relatively recents, you can find a lot of good references about it. I can suggest my personal selection at the end of the post. For example, you can start from the post where the creator of Example Mapping, Matt Wynne, introduced this new agile technique in 2015 [^1]. Aslak Hellesøy published a well done introduction [^2], if you prefer to see a more hands on introduction. 
-![Example Mapping in action](/img/2021-02-12-example-mapping.png)
+![Example Mapping in action](/assets/img/2021-02-12-example-mapping.png)
 At the very end, Example Mapping is a structured way to improve refinement and BDD. It's an evolution of the three amigos meetings. Its structure helps to have shorter conversations, but at the same time to make them extremely more powerful and productive. How? It’s simple. The business expert brings to the session a user story that is composed by several rules. For each rule, the business expert already brings some examples to help clarify the feature and to trigger the conversations. In fact, at this point all the attendants will start making questions and providing more examples for each rule. Gaspar Nagy in his post[^3] explains very well how this process helps to exploit all the hidden aspects of a feature. Typically people in the room start challenging data and preconditions of the examples. Apart from the happy cases, they also provide the rainy cases. People ask about other possible outcomes associated with the actions performed in the examples. However, don’t get confused! Example Mapping is not simply a factory generating test scenarios. The real benefit of its usage is the conversation generated in the creation of these new examples.  Infact, creating concrete examples helps to clarify the problem and encourages conversations among people. So, people raise questions that no one has yet answered. And this is totally fine! If you have an unanswered question, you park it in a red post-it and someone has some homeworks to do before the next session. But do you know the good news? You just kick away an unkown unkown in the known unknown area.
 
 ## Slicing the Elephant

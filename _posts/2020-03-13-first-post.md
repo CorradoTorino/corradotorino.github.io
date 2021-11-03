@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Why I will blog as a software engineer?
-image: /img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
+thumbnail-img: /assets/img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
+share-img: /assets/img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
 tags: [blogging, sw-craftsmanship]
+readtime: true
 ---
 
 It is a long time since I started thinking of maintaining a blog. However, I never did a step forward in this direction for several reasons, probably the same that I share with tens of other developers.

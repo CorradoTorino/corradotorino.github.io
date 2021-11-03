@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Authentication and Authorization with OAuth2 and OpenID Connect
-image: /img/2020-09-16-chris-panas-0Yiy0XajJHQ-unsplash_edited.jpg
+thumbnail-img: /assets/img/2020-09-16-chris-panas-0Yiy0XajJHQ-unsplash_edited.jpg
+share-img: /assets/img/2020-09-16-chris-panas-0Yiy0XajJHQ-unsplash_edited.jpg
 tags: [security, authentication, authorization, OAuth, OpenID]
+readtime: true
 ---
 In this post I would like to highlight the distinctions among OAuth, OAuth2 and OpenId Connect. Following the historical evolution of these standards, we can better understand how we can use them for authentication and authorization.
 
