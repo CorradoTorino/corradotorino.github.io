@@ -1,12 +1,12 @@
 ---
 layout: post
 title: OAuth 2.0 and Access Tokens, All You Want to Know 
-image: /img/2021-04-12-fly-d-P3-YKLS2VKA-unsplash.jpg
+image: /assets/img/2021-04-12-fly-d-P3-YKLS2VKA-unsplash.jpg
 tags: [security, authentication, authorization, OAuth, OpenID, tokens, JWT]
 ---
 If you have worked with authentication and authorization of Apps and APIs, you have also played with tokens: access tokens, opaque tokens, JSON Web Tokens, bearer tokens… Here, I want to clarify the difference among these concepts and provide some simple guidelines to ensure their security.
 
-![tokens everywhere](/img/2021-04-12-tokens-everywhere.png)
+![tokens everywhere](/assets/img/2021-04-12-tokens-everywhere.png)
 
 In my previous post about [Authentication and Authorization with OAuth2 and OpenID Connect](https://corradocalzoni.com/2020-09-15-authentication-and-authorization-with-oauth2-and-openid-connect/)[^1], when explaining the difference among these two protocols, I quickly introduced the concept of tokens. However, I deliberately decided to handle its details in a separate post. In fact, I found a lot of confusion and misconceptions around this topic. But, if you don’t want to jeopardise all the effort done to protect your resources, a deep understanding of tokens is fundamental.
 
@@ -16,7 +16,7 @@ Simply said, an access token is a piece of information that grants access to a p
 
 I found very illustrative the analogy provided by Aaron Parecki comparing the OAuth access tokens to the hotel key cards[^2]. In fact, you get a hotel key card by authenticating at the front desk and you get an access token authenticating to an authorization server. You can use a hotel key card to access your room and eventually multiple other doors in the hotel. In the same way, an access token can be used to access different APis. A hotel key card can be used by anyone who can get a hold of it, and the same can be done with bearer access tokens. You can understand the severity reading  "The Danger of Bearer Tokens" section. A hotel key card expires at the end of your visit, and as explained in the section “Access Token Lifetime”, your APis should honor the expiration time defined by the authorization server. As hotel key cards can be revoked by the hotel at any time, the same is valid for the access token. As you can see, the analogy with the hotel key card is very powerful and I strongly recommend reading Aaron's [^2] to find out more parallelisms.
 
-![hotel key card](/img/2021-04-12-access-card-4575613_1920.jpg)
+![hotel key card](/assets/img/2021-04-12-access-card-4575613_1920.jpg)
 
 **An OAuth access token is the digital counterpart to an a hotel key card.**
 
@@ -28,7 +28,7 @@ Let’s start with **Opaque Tokens**: these are access tokens written in a propr
 
 A completely different story is for **JSON Web Tokens (JWT)**, these are strings representing a set of claims as a JSON object and are digitally signed to ensure their integrity[^4]. Unlike bearer tokens, JWTs are self-contained and their recipient can use and validate directly without calling the issuing server. JWTs, simply pronounced Jots, became very popular because OpenID Connect enforces their usage to inform identity information in the form of claims. 
 
-![Jwt explained](/img/2021-04-12-jwt-explained.png)
+![Jwt explained](/assets/img/2021-04-12-jwt-explained.png)
 **Example of a Json Web Token (JWT).** On the left side, the JWT is encoded. On the right end, the same JWT has been decoded and highlighted its structure. The payload stores several claims. In this case, the “role” claim has been defined to identify the user role and the “scope” claim stores a set of authorization scopes.
 
 ## The Danger of Bearer Tokens

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I will blog as a software engineer?
-image: /img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
+image: /assets/img/2020-03-13-glenn-carstens-peters-npxXWgQ33ZQ-unsplash-edited.jpg
 tags: [blogging, sw-craftsmanship]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your Words Become Your Actions
-image: /img/2020-10-14-aaron-blanco-tejedor-yH18lOSaZVQ-unsplash-edited.jpg
+image: /assets/img/2020-10-14-aaron-blanco-tejedor-yH18lOSaZVQ-unsplash-edited.jpg
 tags: [diversity, inclusion, inclusive-language]
 ---
 Worlds Matters! A master slave relationship is not just a primary and replica dependency… Terms such as master and slave are associated to social discrimination and should be used just in their context. 
@@ -32,7 +32,7 @@ We need to be clear: replacing racially loaded terms is not just a simple “fin
 
 When searching for racially loaded terms, I got the impression that the number of projects and companies that were taking the responsibility to move the needle was very relevant. Reading tech articles and blog posts, pulling Twitter threads and checking pull requests I collected a considerable amount of information that I summarized in *Table 2*. Of course, it’s not intended as a comprehensive source of truth. However, it helped me to understand the trend and create the infographic shown in *Figure 1*. 
 
-![Infographic](/img/2020-10-14-infographic-projects-and-company-changes.png)
+![Infographic](/assets/img/2020-10-14-infographic-projects-and-company-changes.png)
 
 **Figure 1: Infographic of projects and company creating cross-cultural linguistic awareness**
 
